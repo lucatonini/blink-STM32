@@ -5,3 +5,8 @@ Dependencies
 -st-link
 -make
 -gcc
+
+Hardware
+-STM32 (Blue Pill)
+-ST-LINK V2
+-Jumper Cables x4
