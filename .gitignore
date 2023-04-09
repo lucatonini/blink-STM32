@@ -1,0 +1,8 @@
+!.gitignore
+/Debug/
+build/
+build/**/.*
+
+*.elf
+*.bin
+generated.*.ld
