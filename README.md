@@ -6,7 +6,7 @@ A simple LED blink STM32 (blue pill) application using libopencm3
  2. cd blink-STM32
  3. make -C libopencm3 # (Only needed once)
  4. make -C src
- 5. Once STM32 and ST-Link are connected to your computer, run the follwing to flash the application: st-flash write blink-led.bin 0x8000000
+ 5. Once STM32 and ST-Link are connected to your computer, run the follwing to flash the application: st-flash write build/blink-STM32.bin 0x8000000
 
 # Dependencies
  * st-link
