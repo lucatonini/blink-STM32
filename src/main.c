@@ -27,7 +27,7 @@ static void gpio_setup(void)
 	/* LED */
 	/* Set GPIO13 (in GPIO port C) to 'output push-pull'. */
 	gpio_set_mode(GPIOC, GPIO_MODE_OUTPUT_50_MHZ,
-		      GPIO_CNF_OUTPUT_PUSHPULL, GPIO15);
+		      GPIO_CNF_OUTPUT_PUSHPULL, GPIO13);
 
 	// Set up GPIO pin
 	// gpio_set_mode(GPIOC,
